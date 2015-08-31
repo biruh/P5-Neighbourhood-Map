@@ -91,7 +91,7 @@ var ViewModel = function() {
     this.places = ko.observableArray([]);
 
     placesOfInterest.forEach(function(placeObj) {
-        self.places.push( new Place( placeObj ) );
+        self.places.push(  placeObj  );
     });
 
     // create ko observable to hold markers of places
